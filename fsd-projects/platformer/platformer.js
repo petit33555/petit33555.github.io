@@ -17,10 +17,19 @@ $(function () {
     }
 
     // Create walls - do not delete or modify this code
+    createPlatform(400, 400, 25, 150,);
+    createPlatform(300, 640, 25, 100);
+    createPlatform(345, 525, 50, 25);
+    createPlatform(525, 400, 125, 25);
+    createPlatform(550, 625, 200, 25);
+    createPlatform(550, 570, 25, 170);
     createPlatform(-50, -50, canvas.width + 100, 50); // top wall
     createPlatform(-50, canvas.height - 10, canvas.width + 100, 200, "navy"); // bottom wall
     createPlatform(-50, -50, 50, canvas.height + 500); // left wall
     createPlatform(canvas.width, -50, 50, canvas.height + 100); // right wall
+    createCollectable(type.db, 100, 100);
+    createCollectable(type.db, 650, 550);
+    createCollectable(type.db, 875, 750);
 
     //////////////////////////////////
     // ONLY CHANGE BELOW THIS POINT //
@@ -32,7 +41,7 @@ $(function () {
 
     // TODO 2 - Create Platforms
 
-    createPlatform(0, 500, 25, 100,);
+    createPlatform(500, 625, 25, 100,);
     createPlatform(300, 700, 25, 50);
     createPlatform(365, 675, 50, 25);
     createPlatform(525, 625, 120, 25);
