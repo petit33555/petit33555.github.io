@@ -42,16 +42,16 @@ $(function () {
 
     // TODO 3 - Create Collectables
 
-createCollectable(type.db, 525, 675);
-createCollectable(type.db, 650, 550);
-createCollectable(type.db, 875, 750);
+    createCollectable(type.db, 525, 675);
+    createCollectable(type.db, 650, 550);
+    createCollectable(type.db, 875, 750);
 
     
     // TODO 4 - Create Cannons
 
-createCannon("bottom", 700, 1000);
-createCannon("right", 550, 1000);
-createCannon("top", 475, 1000);
+    createCannon("bottom", 700, 1000);
+    createCannon("right", 550, 1000);
+    createCannon("top", 475, 1000);
     
     
     //////////////////////////////////
