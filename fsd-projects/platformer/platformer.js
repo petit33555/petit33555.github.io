@@ -32,13 +32,13 @@ $(function () {
 
     // TODO 2 - Create Platforms
 
-createPlatform(0, 500, 25, 100,);
-createPlatform(300, 700, 25, 50);
-createPlatform(365, 675, 50, 25);
-createPlatform(525, 625, 120, 25);
-createPlatform(725, 625, 25, 250);
-createPlatform(800, 700, 25, 50);
-createPlatform(550, 595, 25, 50);
+    createPlatform(0, 500, 25, 100,);
+    createPlatform(300, 700, 25, 50);
+    createPlatform(365, 675, 50, 25);
+    createPlatform(525, 625, 120, 25);
+    createPlatform(725, 625, 25, 250);
+    createPlatform(800, 700, 25, 50);
+    createPlatform(550, 595, 25, 50);
 
     // TODO 3 - Create Collectables
 
